@@ -3,7 +3,7 @@ Simple calculator in WPF using MahApps toolkit
 
 # Overview 
 Calculator with simple basic operations such as division, subtraction, addition and multiplication with two types of input, 
-directly with the buttons on screen or with the keyboard
+directly with the on-screen buttons or with the keyboard
 
 ![Preview Image](/preview.png)
 
