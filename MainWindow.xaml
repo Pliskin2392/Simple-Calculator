@@ -37,7 +37,7 @@
                 <SolidColorBrush Color="#181818" Opacity="0.8"/>
             </ListBox.Background>
         </ListBox>
-        <Label x:Name="ClearHistoryList" Content="Clear History List" Visibility="Visible" HorizontalAlignment="Left" Height="28" Margin="69,94,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold" MouseDown="ClearHistoryList_MouseDown"/>
+        <Label x:Name="ClearHistoryList" Content="Clear History List" Visibility="Hidden" HorizontalAlignment="Left" Height="28" Margin="69,94,0,0" VerticalAlignment="Top" Width="108" FontWeight="Bold" MouseDown="ClearHistoryList_MouseDown"/>
         <mbar:AlertBarWpf x:Name="msg" VerticalAlignment="Top" Height="24" Margin="0,459,0.4,0"/>
     </Grid>
 </Controls:MetroWindow>
