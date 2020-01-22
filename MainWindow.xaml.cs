@@ -40,7 +40,7 @@ namespace Calculator
             Enter.Click += MyButtonClick;
             Clear.Click += MyButtonClick;
         }
-        // ********************************** Capture button's click event **********************************
+        // ********************************** Capture button's click event ***********************************
         void MyButtonClick(object sender, EventArgs e)
         {
             try
