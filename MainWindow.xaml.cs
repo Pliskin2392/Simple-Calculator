@@ -97,6 +97,8 @@ namespace Calculator
                         }
                         if (doResutl != 0)
                             CurrentText.Text = doResutl.ToString("N4");
+                        else
+                            CurrentText.Text = "0";
                         ClearLists();
                         boClearList = true;
                         liszOperationsHistory.Insert(0, $"{szTemp} = {CurrentText.Text}");
@@ -131,7 +133,7 @@ namespace Calculator
         // ********************************** Bind physical keyboard keys with buttons **********************************
         void KeyDownMethod(object sender, KeyEventArgs e)
         {
-           Console.WriteLine(e.Key);
+            Console.WriteLine(e.Key);
             if (e.Key == Key.Escape)
             {
                 ClearLists();
@@ -193,6 +195,9 @@ namespace Calculator
                     break;
                 case Key.OemMinus:
                     MyButtonClick(Rest, null);
+                    break;
+                case Key.OemPlus:
+                    MyButtonClick(Add, null);
                     break;
                 case Key.OemQuestion:
                     MyButtonClick(Division, null);
